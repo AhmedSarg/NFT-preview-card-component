@@ -1,3 +1,6 @@
+* {
+    font-family: 'Outfit';
+}
 body {
     background-color: hsl(217, 54%, 11%);
     display: flex;
@@ -6,9 +9,131 @@ body {
     width: 1440px;
     height: 700px;
 }
+.cont {
+    width: 20%;
+}
 .card {
     background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 3%;
+}
+.imgcont {
+    display: flex;
+    width: 248px;
+    justify-content: center;
+    position: relative;
+}
+.mainimg {
+    border-radius: 3%;
+}
+.ey {
+    opacity: 0%;
+    transition-duration: 150ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+.ey:hover {
+    opacity: 100%;
+    cursor: pointer;
+    
+}
+.eyimg {
+    position: absolute;
+    top: 104px;
+    left: 104px;
+    width: 40px;
+    z-index: 1;
+}
+.eycvr {
+    position: absolute;
+    background-color: hsl(178, 100%, 50%);
+    width: 248px;
+    height: 248px;
+    opacity: 50%;
+    left: 0px;
+    border-radius: 3%;
 }
 .title {
     font-size: 18px;
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+    width: 150px;
+    transition-duration: 100ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+.title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.main {
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 200;
+    margin: 19px 0px;
+}
+.count {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.eth {
+    display: flex;
+    align-items: center;
+}
+.ethimg {
+    height: 15px;
+}
+.ethtxt {
+    color: hsl(178, 100%, 50%);
+    padding: 0px 5px 0px 5px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.time {
+    display: flex;
+    align-items: center;
+}
+.timimg {
+    height: 15px;
+}
+.timetxt {
+    color: hsl(215, 51%, 70%);
+    padding: 0px 5px 0px 5px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.splt {
+    margin: 0px;
+    height: 1px;
+    background-color: hsl(215, 51%, 70%);
+}
+.footer {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+.av {
+    width: 25px;
+    border:hsl(0, 0%, 100%) solid 1px;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+.end {
+    margin: 0px;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+.jul {
+    color: hsl(0, 0%, 100%);
+}
+.jul:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition-duration: 100ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
 }
